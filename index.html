@@ -34,7 +34,7 @@
                 <button @click="settings.tab = 'Settings'"><img alt="S" class="inline" src="images/settings.svg"/> Settings</button>
             </div>
             <div>
-                <button v-if="isLayerCategory === 'Achievements'" @click="settings.tab = 'Aleph'"><span class="aleph">ℵ</span> Aleph</button>
+                <button v-if="isLayerCategory === 'Achievements' && game.achievements[3].isCompleted" @click="settings.tab = 'Aleph'"><span class="aleph">ℵ</span> Aleph</button>
                 <button v-if="isLayerCategory === 'Guide'" @click="settings.tab = 'Changelog'"><img alt="C" class="inline" src="favicon.png"> Changelog</button>
                 <button v-if="isLayerCategory === 'Guide'" @click="settings.tab = 'Engine Changelog'"><img alt="EC" class="inline" src="https://jwklong.github.io/omega-engine/favicon.png"> Engine Changelog</button>
                 <button v-if="isLayerCategory === 'Achievements && game.secretAchievements.filter(ach => ach.isCompleted).length > 0'" @click="settings.tab = 'Secret Achievements'"><img alt="Sa" class="inline" src="images/star.svg"> Secret Achievements</button>
