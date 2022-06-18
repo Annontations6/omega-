@@ -91,7 +91,7 @@ const game = {
     },
     achievements: [
         new Achievement("Start of the achievements", "Play the game", "1", () => true),
-        new Achievement("The waiting game", "Play for 15 seconds", "1", () => game.timeSpent > 15),
+        new Achievement("The waiting game", "Play for 15 seconds", "2", () => game.timeSpent > 15),
     ],
     secretAchievements: [
         new Achievement("A very long wait...", "Have a game with over 3 months of time", "...", () => game.timeSpent > 50803200),
