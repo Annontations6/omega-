@@ -93,6 +93,7 @@ const game = {
         new Achievement("Start of the achievements", "Play the game", "1", () => true),
         new Achievement("The waiting game", "Play for 15 seconds", "2", () => game.timeSpent > 15),
         new Achievement("Achievements are boring!", "Visit another tab", "3", () => game.settings.tab != "Achievements"),
+        new Achievement("I'm bored...", "Play for 40 seconds, and unlock aleph", "4", () => game.timeSpent > 40),
     ],
     secretAchievements: [
         new Achievement("A very long wait...", "Have a game with over 3 months of time", "...", () => game.timeSpent > 50803200),
