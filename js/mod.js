@@ -10,7 +10,7 @@ var mod = {
         ["hacky", "css/themes/hacky.css"],
         ["bad", "css/themes/bad.css"],
         ["dark", "css/themes/dark.css"],
-        ["broken light", "https://veprogames.github.io/omega-layers/css/main.css"],
+        ["broken light", "https://jwklong.github.io/omega-layers/css/main.css"],
         ["neon", "css/themes/neon.css"],
         ["idk blue", "css/themes/darkblue.css"],
         ["halloween", "css/themes/spooky.css"],
