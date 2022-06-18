@@ -61,12 +61,12 @@ var mod = {
         ]]
     ],
     fonts: [
-        ["snas", "css/fonts/comic.css"],
+        ["snas", "css/fonts/cokic.css"],
         ["mono", "css/fonts/typespace.css"],
-        ["airial", "css/fonts/arial.css"],
+        ["airial", "css/fonts/textart.css"],
         ["robot", "css/fonts/roboto.css"],
-        ["comfy", "css/fonts/comfortaa.css"],
-        ["minceraft", "css/fonts/minecraft.css"],
+        ["comfy", "css/fonts/comfortzz.css"],
+        ["micoineraft", "css/fonts/micoineraft.css"],
     ],
     saves: [
         ["crewmate save", ""],
