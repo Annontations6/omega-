@@ -515,7 +515,7 @@ class PrestigeLayer
 
     getExponentialBoostFactor()
     {
-        return game.alephLayer.upgrades.layerExponentialBoost.apply() + game.restackLayer.permUpgrades.layerExponentialBoostFactor.apply()
+        return game.restackLayer.permUpgrades.layerExponentialBoostFactor.apply()
             + game.restackLayer.permUpgrades.layerExponentialBoostFactorTime.apply();
     }
 
