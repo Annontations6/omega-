@@ -1,9 +1,9 @@
 var mod = {
-    primaryName: "ω",
-    secondaryName: "Engine",
+    primaryName: "Achievement",
+    secondaryName: " Layers",
     version: "1.0.0",
     engineVer: "0.2.3 P1", //DO NOT MODIFY
-    debugMode: true,
+    debugMode: false,
     themes: [
         ["Dark", "css/themes/dark.css"],
         ["Light (Legacy)", "https://veprogames.github.io/omega-layers/css/main.css"],
