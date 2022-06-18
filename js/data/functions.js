@@ -306,13 +306,13 @@ const functions = {
                 const settings = JSON.parse(decodeURIComponent(escape(atob(localStorage.getItem(mod.primaryName+mod.secondaryName+"_Settings"+game.settings.saveInfo)))));
                 settings.saveInfo = game.settings.saveInfo
                 game.settings = Object.assign(game.settings, settings);
-                game.settings.tab = "Achievements"
             }
             catch(e)
             {
                 console.warn("Error setting settings\n", e.stack);
             }
         }
+        game.settings.tab = "Achievements"
         this.setTheme(game.settings.theme)
         this.setNames(game.settings.layerNames)
         this.setFont(game.settings.font)
